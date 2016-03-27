@@ -33,3 +33,8 @@ bower.json
 
 # Ignore pow environment settings
 .powenv
+
+# Tells git to ignore the virtual machine
+.vagrant
+public/system
+.DS_Store
