@@ -53,7 +53,7 @@ Now that your database configuration has been set you should provision your data
 ### Step 9 - Launching the web server
 At this point all resources have been installed and initialized and you are ready to start your rails server. To do this use the following command:
 
-    rails s -b 30.30.30.11
+    rails s -b 21.21.21.11
 
 ## Working with Rails tests
 As of Rails 4.1 you must maintain your test database/environment manually. Run the following commands to ensure that happens. The migration step must be run each time the database schema updates.
