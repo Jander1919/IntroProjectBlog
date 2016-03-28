@@ -1,0 +1,19 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+  database: blog_app
+  username: blog_development
+  password: blog_development
+  host: 127.0.0.1
+  port: 5432
+test:
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+  database: blog_app_test
+  username: blog_development
+  password: blog_development
+  host: 127.0.0.1
+  port: 5432
+  min_messages: warning
